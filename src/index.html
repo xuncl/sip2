@@ -1,10 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
-	hello, sip2!
+    <div class="container">
+        <div class="wrapper">
+            <div class="heading">
+                <div class="heading_nav">
+                    <div class="heading_img">
+                        <img src="img/sip_icon5_icon.png">
+                    </div>
+                    <div class="heading_navbar">
+                        <ul>
+                            <li><a href="#">新增</a></li>
+                            <li><a href="#">激活</a></li>
+                            <li><a href="#">统计</a></li>
+                            <li><a href="#">清单</a></li>
+                        </ul>
+                    </div>
+                    <div class="heading_desc">
+                        <a href="#">
+                    		{{date}} today:{{today_points}} yesterday:{{yesterday_points}} delta:{{delta}}
+                    	</a>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                <hr/>
+                <hr/>
+                <div class="body_target">
+                	<ul>
+                		<p><li>07:30 计划 <input type="checkbox" name="test1"></li></p>
+                		<p><li>07:30 计划 <input type="checkbox" name="test1"></li></p>
+                		<p><li>07:30 计划 <input type="checkbox" name="test1"></li></p>
+                		<p><li>07:30 计划 <input type="checkbox" name="test1"></li></p>
+                		<p><li>07:30 计划 <input type="checkbox" name="test1"></li></p>
+                	</ul>
+                </div>
+            </div>
+        </div>
+        <div class="footing">
+            @xuncl.com
+        </div>
+    </div>
 </body>
+
 </html>
