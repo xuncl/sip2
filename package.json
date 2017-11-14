@@ -1,0 +1,37 @@
+{
+  "name": "sip2",
+  "version": "1.0.0",
+  "description": "self-improving app for web",
+  "main": "index.html",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuncl/sip2.git"
+  },
+  "keywords": [
+    "sip2"
+  ],
+  "author": "xuncl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuncl/sip2/issues"
+  },
+  "homepage": "https://github.com/xuncl/sip2#readme"
+}
